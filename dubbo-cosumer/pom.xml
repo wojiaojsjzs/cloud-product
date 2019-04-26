@@ -9,11 +9,11 @@
     </parent>
 
     <groupId>com.jzs</groupId>
-    <artifactId>dubbo-provider</artifactId>
+    <artifactId>dubbo-cosumer</artifactId>
     <version>0.0.1</version>
     <packaging>jar</packaging>
-    <name>dubbo-provider</name>
-    <description>提供</description>
+    <name>dubbo-cosumer</name>
+    <description>消费</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -75,6 +75,12 @@
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
             <version>4.1.34.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>com.jzs</groupId>
+            <artifactId>dubbo-provider</artifactId>
+            <version>0.0.1</version>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>

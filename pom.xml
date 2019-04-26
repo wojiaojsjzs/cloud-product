@@ -10,6 +10,7 @@
     <modules>
         <module>admin</module>
         <module>dubbo-provider</module>
+        <module>dubbo-cosumer</module>
     </modules>
 
     <dependencyManagement>

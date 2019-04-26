@@ -1,0 +1,16 @@
+management:
+  endpoint:
+    health:
+      show-details: always
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.10.10:8848
+        file-extension: yml
+  application:
+    name: test1
+
+nacos:
+  config:
+    server-addr: 192.168.10.10:8848

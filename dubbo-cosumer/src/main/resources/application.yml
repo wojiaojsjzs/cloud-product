@@ -1,13 +1,13 @@
 server:
-  port: 8084
+  port: 8085
 
 dubbo:
   application:
-    name: provider
+    qos-enable: false
+    name: cosumer
   registry:
     address: nacos://192.168.10.10:8848
   protocol:
     name: dubbo
-    prot: 20882
-
+    prot: 20880
 
