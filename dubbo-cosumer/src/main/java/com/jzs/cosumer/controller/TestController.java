@@ -1,7 +1,7 @@
-package com.jzs.admin.controller;
+package com.jzs.cosumer.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.jzs.admin.service.Demoservice;
+import com.jzs.provider.service.Demoservice;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

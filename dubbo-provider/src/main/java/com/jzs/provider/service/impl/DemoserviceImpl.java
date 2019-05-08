@@ -1,7 +1,7 @@
-package com.jzs.admin.service.impl;
+package com.jzs.provider.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.jzs.admin.service.Demoservice;
+import com.jzs.provider.service.Demoservice;
 @Service(group = "dubbo-cosumer", retries = 0, timeout = 10000)
 public class DemoserviceImpl implements Demoservice {
     @Override

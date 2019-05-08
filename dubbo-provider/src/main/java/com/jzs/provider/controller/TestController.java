@@ -1,4 +1,4 @@
-package com.jzs.admin.controller;
+package com.jzs.provider.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

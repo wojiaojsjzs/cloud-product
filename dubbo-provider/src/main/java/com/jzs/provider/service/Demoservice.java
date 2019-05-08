@@ -1,4 +1,4 @@
-package com.jzs.admin.service;
+package com.jzs.provider.service;
 
 public interface Demoservice {
 

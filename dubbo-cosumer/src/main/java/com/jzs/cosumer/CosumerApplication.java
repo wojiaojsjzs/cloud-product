@@ -1,6 +1,5 @@
-package com.jzs.admin;
+package com.jzs.cosumer;
 
-import com.alibaba.dubbo.config.spring.context.annotation.EnableDubbo;
 import com.alibaba.dubbo.config.spring.context.annotation.EnableDubboConfig;
 import com.alibaba.nacos.spring.context.annotation.config.NacosPropertySource;
 import org.springframework.boot.SpringApplication;
@@ -10,12 +9,13 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableDubboConfig
+//@EnableDubboConfiguration
 @NacosPropertySource(dataId = "example", groupId = "DEFAULT_GROUP", autoRefreshed = true)
-@EnableDubbo(scanBasePackages = "com.jzs.admin.service")
-public class ProviderApplication {
+//@EnableDubbo(scanBasePackages = "com.jzs.admin.service")
+public class CosumerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ProviderApplication.class, args);
+        SpringApplication.run(CosumerApplication.class, args);
     }
    /* @Bean
     public ApplicationConfig applicationConfig() {
